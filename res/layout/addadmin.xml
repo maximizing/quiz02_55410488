@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtshow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtshow1"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="64dp"
+        android:text="Password" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtshow3"
+        android:layout_below="@+id/txtshow3"
+        android:layout_marginTop="72dp"
+        android:text="Position" />
+
+    <TextView
+        android:id="@+id/txtshow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtshow3"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:text="Username" />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtshow1"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="Username" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/e3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtshow3"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Password" />
+
+    <EditText
+        android:id="@+id/e4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Position" />
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/e4"
+        android:layout_marginRight="69dp"
+        android:layout_marginTop="55dp"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/btnshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnadd"
+        android:layout_alignBottom="@+id/btnadd"
+        android:layout_toRightOf="@+id/textView3"
+        android:text="Show" />
+
+    <Button
+        android:id="@+id/btnclose_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnadd"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="27dp"
+        android:text="Close" />
+
+    <Button
+        android:id="@+id/btnplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnclose_admin"
+        android:layout_alignLeft="@+id/btnshow"
+        android:text="Play" />
+
+</RelativeLayout>

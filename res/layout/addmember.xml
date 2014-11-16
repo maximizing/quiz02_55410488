@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtshow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="26dp"
+        android:text="Username" />
+
+    <TextView
+        android:id="@+id/txtshow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtshow1"
+        android:layout_below="@+id/txtshow1"
+        android:layout_marginTop="69dp"
+        android:text="Password" />
+
+    <EditText
+        android:id="@+id/e5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtshow1"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Username" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/e6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtshow3"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="Password" />
+
+    <Button
+        android:id="@+id/btnaddmember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/e6"
+        android:layout_marginRight="27dp"
+        android:layout_marginTop="67dp"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/btnclose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btnaddmember"
+        android:layout_below="@+id/btnaddmember"
+        android:layout_marginTop="39dp"
+        android:text="Close" />
+
+</RelativeLayout>

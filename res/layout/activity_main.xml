@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/un_488"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/e1_488"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="46dp"
+        android:text="Username" />
+
+    <EditText
+        android:id="@+id/e1_488"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/un_488"
+        android:layout_marginTop="20dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/pw_488"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/e1_488"
+        android:layout_marginTop="34dp"
+        android:text="Password" />
+
+    <EditText
+        android:id="@+id/e2_488"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/pw_488"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btn1_488"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/e2_488"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/btnnewmember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn1_488"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="New Member" />
+
+</RelativeLayout>
