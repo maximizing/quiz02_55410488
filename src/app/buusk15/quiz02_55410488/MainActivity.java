@@ -66,6 +66,7 @@ public class MainActivity extends Activity implements OnClickListener {
 		case R.id.btnnewmember:
 			Intent j = new Intent(getApplicationContext(), AddMember.class);
 			startActivity(j);
+			
 			break;
 		default:
 			break;
